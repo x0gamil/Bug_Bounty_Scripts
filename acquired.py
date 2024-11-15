@@ -1,6 +1,10 @@
 import http.client
 import json
-
+print("*****************************************************************************")
+print("*  This Script is Trying to Find Companies Acquired By other Organanization *")
+print("*            Search Source https://serper.dev/playground                    *")
+print("*                Powred By: (mohamed gamil) pentester                       *")
+print("*****************************************************************************")
 company = input("Enter Organization Name: ")
 conn = http.client.HTTPSConnection("google.serper.dev")
 payload = json.dumps({
@@ -15,6 +19,7 @@ headers = {
 conn.request("POST", "/search", payload, headers)
 res = conn.getresponse()
 data = res.read()
+
 with open(f'serpdev-{company}-acquires.json','+a') as f:
     f.write(data.decode("utf-8"))
     content = (data.decode("utf-8"))
