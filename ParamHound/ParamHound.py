@@ -6,7 +6,7 @@ RED = '\033[91m'
 RESET = '\033[0m'
 
 
-parser = argparse.ArgumentParser(description="hidden.py - Fuzzing Hidden Parameters")
+parser = argparse.ArgumentParser(description="ParamHound.py - Fuzzing Hidden Parameters")
 
 parser.add_argument("-u", "--url" , help='Target Base URL', required=True)
 #parser.add_argument('-p', "--param", help="Parameter To Test", required=True)
