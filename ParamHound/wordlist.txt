@@ -1,0 +1,8 @@
+role
+admin
+isadmin
+user
+isuser
+show
+debug
+showdetails
