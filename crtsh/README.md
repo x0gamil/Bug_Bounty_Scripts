@@ -15,7 +15,7 @@ git clone https://github.com/x0gamil/Bug_Bounty_Scripts.git
 
 cd Bug_Bounty_Scripts/crtsh.sh
 
-crtsh.sh -d domain.com
+bash crtsh.sh -d domain.com
 
 ```
 
@@ -26,6 +26,6 @@ crtsh.sh -d domain.com
 ```bash
 crtsh.sh -d example.com
 ```
-This will fetch and display all the subdomains associated with example.com from crt.sh and save them to a file all-subs.txt.
+This will fetch and display all the subdomains associated with example.com from crt.sh and save them to a file `all-subs.txt`.
 
 
