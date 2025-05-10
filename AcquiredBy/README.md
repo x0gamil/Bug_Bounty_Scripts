@@ -21,11 +21,16 @@ cd Bug_Bounty_Scripts/acquiredBy
 
 pip install requests
 ```
+
+## Get API Key
+
 Get an API Key for Google Serper:
 
 Visit Serper API and sign up to get your API key.
 
 Replace the placeholder API key in the script with your actual API key.
+
+## Run
 
 ```bash
 python acquiredBy.py
