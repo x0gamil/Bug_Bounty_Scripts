@@ -15,7 +15,7 @@ git clone https://github.com/x0gamil/Bug_Bounty_Scripts.git
 
 cd Bug_Bounty_Scripts/crtsh.sh
 
-bash crtsh.sh -d domain.com
+crtsh.sh -d domain.com
 
 ```
 
